@@ -107,3 +107,27 @@ Earlier Decades: From the 1930s to the 1990s, movie production was much lower, w
 
 
 
+### checking if movies with more votes tend to have higher ratings.
+This analysis helps to understand if more popular movies (with higher votes) tend to have higher ratings, and vice versa.
+![](images/seven.png)
+
+This scatter plot visualizes the relationship between votes (on the y-axis) and ratings (on the x-axis) for movies. Each dot represents a movie, where its position on the x-axis indicates its rating and its height on the y-axis indicates the number of votes it received.
+
+#### Key Insights: General Trend:
+
+- Movies with higher ratings (closer to 10) tend to have more votes. There is a visible upward trend where movies with ratings above 7.0 generally attract more votes, suggesting that higher-rated movies are more popular and receive more viewer engagement. Cluster of Low Ratings with Few Votes:
+
+- Movies with ratings below 6.0 tend to have fewer votes. This could indicate that lower-rated movies attract less attention or may appeal to smaller, niche audiences. Highly Voted Movies with High Ratings:
+
+- A group of movies with ratings between 8.0 and 9.5 has received the highest number of votes (over 1 million). These are likely popular and highly rated movies that resonate with large audiences.
+
+
+
+### what are the common genres?
+
+![](images/ten.png)
+
+The word cloud above shows the most common movie genres in the dataset. The bigger the word, the more common that genre is. For example, "Drama," "Comedy," "Action," and "Adventure" are the largest words, meaning these genres appear most often in the movies we have. This suggests that these types of movies are very popular or are produced more frequently.
+>
+Other genres, like "Documentary," "Crime," and "Animation," are also shown but are a bit smaller, which means they are less common than the top genres but still significant. You can also see a wide range of genres, like "Horror," "Romance," and "Reality-TV," showing that there is a good mix of movie types available.
+
