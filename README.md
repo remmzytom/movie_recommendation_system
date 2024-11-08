@@ -162,10 +162,39 @@ comparing movie runtimes across different genres. This could reveal if certain g
 - Shorter Runtimes: Genres like animation, short, and game-show have the shortest average runtimes, with averages below 60 minutes. This is likely due to the nature of these genres; for example, short films are designed to be concise.
 
 
+### Top rated movies
+This provides insight into which movies have achieved exceptional ratings and how diverse or varied these top-rated films are in terms of genres and content.
+
+![](images/14.png)
+
+-Highest Rated: The top-rated movie is "Avatar: The Last Airbender" (2005) with a 9.9 rating, which appears multiple times in the list, indicating episodes or specific seasons that are highly regarded.
+-Diversity: The list includes a mix of animated series (e.g., "BoJack Horseman", "She-Ra and the Princesses of Power") and dramas (e.g., "Dexter", "Dark").
+-Consistent Ratings: All movies on the list have very high ratings, ranging from 9.6 to 9.9, showing they are well-loved by audiences.
 
 
+### Most Voted Movies:¶
+The top 10 movies with the most votes.
+
+![](images/15.png)
+
+- Top Movie: "The Lord of the Rings: The Fellowship of the Ring" holds the highest number of votes with 1,711,028 votes, suggesting it is extremely popular.
+- Series Dominance: The chart includes multiple movies from the "The Lord of the Rings" franchise, indicating that this series is highly favored by audiences.
+- Variety: While the top three movies are part of well-known series (including "Breaking Bad"), the list also includes standalone hits like "The Departed", "Gone Girl", and "Kill Bill: Vol. 1".
+- TV Shows Included: The presence of TV series like "Stranger Things" and "The Walking Dead" shows that the most-voted content isn’t limited to movies but includes popular series as well.
 
 
+### comparing Top 10 Most Voted and Top-Rated Movies: 
+This comparison was done to determine if there is an alignment between popularity (measured by the number of votes) and quality (measured by ratings)
+![](images/16.png)
 
+This plot (light blue) represents the number of votes each movie received, while the red line plot represents the corresponding ratings.
+
+#### Key Insights:
+>
+- The most voted movies such as The Lord of the Rings series, Breaking Bad, and Jurassic Park received well over a million votes, indicating their popularity. However, their ratings range between 8.5 and 9.0, which are slightly lower than the top-rated movies.
+- The highest-rated movies, including Avatar: The Last Airbender, BoJack Horseman, and She-Ra and the Princesses of Power, have consistently high ratings of 9.7 to 9.8, but they attracted significantly fewer votes compared to the most voted movies.
+- The plot reveals that popularity (votes) and quality (ratings) don't always align. Highly voted movies are not always the highest-rated, and top-rated movies tend to attract more niche or dedicated audiences.
+>
+This visualization shows the relationship between popularity and quality. Some movies are very popular and get a lot of votes, while others are highly rated but have fewer viewers. Knowing this can help in making better content recommendations, marketing decisions, and targeting the right audience for different types of movies.
 
   
