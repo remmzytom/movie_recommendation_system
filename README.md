@@ -35,17 +35,99 @@ The dataset includes information on:
 - One-Hot Encoding & Feature Engineering:
 - Text Processing:
 - Exploratory Data Analysis (EDA):
- - Descriptive Analysis:
 - Visual Libraries:
- - Utilized Matplotlib, Seaborn, and WordCloud to create clear and informative visualizations.
+- Utilized Visual Libraries like Matplotlib, Seaborn, and WordCloud to create clear and informative visualizations.
 - Machine Learning & Modeling:
- - Unsupervised Learning:
-  - Implemented K-Means Clustering for segmenting movies based on characteristics.
+- Unsupervised Learning:
 - Dimensionality Reduction(PCA):
 - Similarity Measures(cosine similarity):
 - Data Standardization(standarsScaler):
-- Developed functions for data manipulation, visualization, and analysis.
 - Pandas & Numpy:
 - Scikit-Learn:
-- Utilized for TF-IDF Vectorization, K-Means clustering, and data scaling.
+- Utilized for TF-IDF Vectorization, K-Means clustering.
+
+
+
+### Number of Movies Released Per Year
+This analysis was conducted to examine the number of movies released each year, highlighting the trends in movie production over time. A bar chart was created to display the top 20 years with the highest number of movie releases, providing a clear view of how the movie industry has evolved.
+## ![barchat](images/one.png)
+
+This bar chart presents the trend of movie releases from 2001 to 2020, showing a significant rise in production over time, with the peak occurring in 2020 at 2,442 movies. The visual highlights a gradual increase in movie releases from 2001, where fewer than 50 movies were released annually, to a marked acceleration in recent years
+
+### Key Insights:
+
+- 2020 saw a dramatic surge in movie releases, reaching the highest point in the dataset. This could be due to the proliferation of digital platforms like Netflix and Amazon Prime, enabling more films to be distributed directly to consumers.
+- The second highest number of releases occurred in 2019 with 1,420 movies, suggesting a consistent upward trend in the last decade.
+Prior to 2010, movie production was relatively low compared to recent years. Between 2001 and 2007, the number of annual releases was below 100, but a steady increase is observed after 2008.
+The sharp rise after 2014 aligns with the growth of independent film-making, streaming services, and lower production costs, which have democratized the movie industry.
+- Explanation for the Trend: This trend reflects the transformation of the movie industry, driven by technological advancements and the shift toward online streaming platforms. It also points to the increasing demand for content, as well as changes in the way movies are produced and distributed. Understanding these trends is essential for building predictive models or recommendation systems that cater to current production and consumption patterns.
+
+
+### Number of Movies Released in Different Decades
+This analysis provides a long-term view of how the movie industry has evolved over the years, highlighting significant periods of growth and change.
+## ![barchat](images/two.png)
+
+This bar chart shows how many movies were released in each decade, from the 1930s to the 2020s. The data reveals some important trends:
+
+### Key Insights:
+
+- 2010s: The 2010s saw the highest number of movie releases, with 5,451 movies. This huge increase is likely due to the rise of streaming platforms like Netflix and Amazon Prime, which made it easier to produce and distribute movies.
+- 2020s: Even though the 2020s aren't over yet, there have already been 3,702 movies released, showing that the movie industry continues to grow rapidly.
+- 2000s: The 2000s marked the beginning of this upward trend, with 637 movies released. This is when digital filmmaking and online distribution started to gain popularity.
+Earlier Decades: From the 1930s to the 1990s, movie production was much lower, with fewer than 100 movies released per decade. This was because making and distributing films was more expensive and harder to do before the digital age.
+### Explanation for Trends:
+
+- Technology: Starting in the 2000s, new technology made it cheaper and easier to make movies. The rise of digital cameras and editing software lowered the cost, allowing more filmmakers to enter the industry.
+- Streaming Services: Platforms like Netflix and Amazon Prime have played a big role in the huge increase in movie releases, especially in the 2010s and 2020s. These platforms have increased the demand for more content, leading to more movies being made.
+
+
+### Analysing the trend of average rating, votes and runtime
+![](images/three.png)
+
+### Average Rating per Year (Top Plot):
+
+- The average movie ratings have remained relatively high and stable, mostly between 6.0 and 8.0, from the 1930s up to 2020.
+- There is some fluctuation in ratings during the 1960s to 1990s, with peaks reaching as high as 8.0 in certain years.
+- In recent years, the average ratings have been more consistent, showing a slight upward trend.
+  
+![](images/four.png)
+### Average Votes per Year (Middle Plot):
+
+- The number of votes has significantly increased starting from the 1960s, with a major spike around the 1980s and 1990s.
+- This increase reflects the growing popularity of movies and wider audience engagement, likely due to better access to films and the rise of internet platforms where users can vote.
+- After the peak in the 1980s and 1990s, the average votes per year have gradually decreased, which might suggest changes in how movies are distributed or voted on.
+
+![](images/five.png)
+
+### Average Runtime per Year (Bottom Plot):
+
+- Movie runtimes have varied widely over the years. The data shows a notable increase in average runtime in the 1960s, with movies during that period running longer, peaking at around 175 minutes.
+- Over time, average runtimes have gradually decreased, especially in more recent years, stabilizing around 100 minutes, possibly due to modern audiences preferring shorter films or the rise of content like TV shows and web series that are designed for quicker consumption.
+- This may reflect changing audience preferences or trends toward shorter, more concise movies in the digital age.
+
+
+
+### checking if movies with more votes tend to have higher ratings.
+This analysis helps to understand if more popular movies (with higher votes) tend to have higher ratings, and vice versa.
+![](images/seven.png)
+
+This scatter plot visualizes the relationship between votes (on the y-axis) and ratings (on the x-axis) for movies. Each dot represents a movie, where its position on the x-axis indicates its rating and its height on the y-axis indicates the number of votes it received.
+
+#### Key Insights: General Trend:
+
+- Movies with higher ratings (closer to 10) tend to have more votes. There is a visible upward trend where movies with ratings above 7.0 generally attract more votes, suggesting that higher-rated movies are more popular and receive more viewer engagement. Cluster of Low Ratings with Few Votes:
+
+- Movies with ratings below 6.0 tend to have fewer votes. This could indicate that lower-rated movies attract less attention or may appeal to smaller, niche audiences. Highly Voted Movies with High Ratings:
+
+- A group of movies with ratings between 8.0 and 9.5 has received the highest number of votes (over 1 million). These are likely popular and highly rated movies that resonate with large audiences.
+
+
+
+### what are the common genres?
+
+![](images/ten.png)
+
+The word cloud above shows the most common movie genres in the dataset. The bigger the word, the more common that genre is. For example, "Drama," "Comedy," "Action," and "Adventure" are the largest words, meaning these genres appear most often in the movies we have. This suggests that these types of movies are very popular or are produced more frequently.
+>
+Other genres, like "Documentary," "Crime," and "Animation," are also shown but are a bit smaller, which means they are less common than the top genres but still significant. You can also see a wide range of genres, like "Horror," "Romance," and "Reality-TV," showing that there is a good mix of movie types available.
 
