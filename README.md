@@ -49,7 +49,7 @@ The dataset includes information on:
 
 
 ### Number of Movies Released Per Year
-An analysis was conducted to examine the number of movies released each year, highlighting the trends in movie production over time. A bar chart was created to display the top 20 years with the highest number of movie releases, providing a clear view of how the movie industry has evolved.
+This analysis was conducted to examine the number of movies released each year, highlighting the trends in movie production over time. A bar chart was created to display the top 20 years with the highest number of movie releases, providing a clear view of how the movie industry has evolved.
 ## ![barchat](images/one.png)
 
 This bar chart presents the trend of movie releases from 2001 to 2020, showing a significant rise in production over time, with the peak occurring in 2020 at 2,442 movies. The visual highlights a gradual increase in movie releases from 2001, where fewer than 50 movies were released annually, to a marked acceleration in recent years
@@ -64,7 +64,7 @@ The sharp rise after 2014 aligns with the growth of independent film-making, str
 
 
 ### Number of Movies Released in Different Decades
-A bar chart was created to illustrate the number of movies released in each decade, from the 1930s to the 2020s. This analysis provides a long-term view of how the movie industry has evolved over the years, highlighting significant periods of growth and change.
+This analysis provides a long-term view of how the movie industry has evolved over the years, highlighting significant periods of growth and change.
 ## ![barchat](images/two.png)
 
 This bar chart shows how many movies were released in each decade, from the 1930s to the 2020s. The data reveals some important trends:
@@ -79,3 +79,31 @@ Earlier Decades: From the 1930s to the 1990s, movie production was much lower, w
 
 - Technology: Starting in the 2000s, new technology made it cheaper and easier to make movies. The rise of digital cameras and editing software lowered the cost, allowing more filmmakers to enter the industry.
 - Streaming Services: Platforms like Netflix and Amazon Prime have played a big role in the huge increase in movie releases, especially in the 2010s and 2020s. These platforms have increased the demand for more content, leading to more movies being made.
+
+
+### Analysing the trend of average rating, votes and runtime
+![](images/three.png)
+
+### Average Rating per Year (Top Plot):
+
+- The average movie ratings have remained relatively high and stable, mostly between 6.0 and 8.0, from the 1930s up to 2020.
+- There is some fluctuation in ratings during the 1960s to 1990s, with peaks reaching as high as 8.0 in certain years.
+- In recent years, the average ratings have been more consistent, showing a slight upward trend.
+  
+![](images/four.png)
+### Average Votes per Year (Middle Plot):
+
+- The number of votes has significantly increased starting from the 1960s, with a major spike around the 1980s and 1990s.
+- This increase reflects the growing popularity of movies and wider audience engagement, likely due to better access to films and the rise of internet platforms where users can vote.
+- After the peak in the 1980s and 1990s, the average votes per year have gradually decreased, which might suggest changes in how movies are distributed or voted on.
+
+![](images/five.png)
+
+### Average Runtime per Year (Bottom Plot):
+
+- Movie runtimes have varied widely over the years. The data shows a notable increase in average runtime in the 1960s, with movies during that period running longer, peaking at around 175 minutes.
+- Over time, average runtimes have gradually decreased, especially in more recent years, stabilizing around 100 minutes, possibly due to modern audiences preferring shorter films or the rise of content like TV shows and web series that are designed for quicker consumption.
+- This may reflect changing audience preferences or trends toward shorter, more concise movies in the digital age.
+
+
+
