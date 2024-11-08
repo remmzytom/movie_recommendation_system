@@ -54,8 +54,8 @@ This analysis was conducted to examine the number of movies released each year, 
 
 This bar chart presents the trend of movie releases from 2001 to 2020, showing a significant rise in production over time, with the peak occurring in 2020 at 2,442 movies. The visual highlights a gradual increase in movie releases from 2001, where fewer than 50 movies were released annually, to a marked acceleration in recent years
 
-### Key Insights:
-
+#### Key Insights:
+>
 - 2020 saw a dramatic surge in movie releases, reaching the highest point in the dataset. This could be due to the proliferation of digital platforms like Netflix and Amazon Prime, enabling more films to be distributed directly to consumers.
 - The second highest number of releases occurred in 2019 with 1,420 movies, suggesting a consistent upward trend in the last decade.
 Prior to 2010, movie production was relatively low compared to recent years. Between 2001 and 2007, the number of annual releases was below 100, but a steady increase is observed after 2008.
@@ -69,8 +69,8 @@ This analysis provides a long-term view of how the movie industry has evolved ov
 
 This bar chart shows how many movies were released in each decade, from the 1930s to the 2020s. The data reveals some important trends:
 
-### Key Insights:
-
+#### Key Insights:
+>
 - 2010s: The 2010s saw the highest number of movie releases, with 5,451 movies. This huge increase is likely due to the rise of streaming platforms like Netflix and Amazon Prime, which made it easier to produce and distribute movies.
 - 2020s: Even though the 2020s aren't over yet, there have already been 3,702 movies released, showing that the movie industry continues to grow rapidly.
 - 2000s: The 2000s marked the beginning of this upward trend, with 637 movies released. This is when digital filmmaking and online distribution started to gain popularity.
@@ -114,7 +114,7 @@ This analysis helps to understand if more popular movies (with higher votes) ten
 This scatter plot visualizes the relationship between votes (on the y-axis) and ratings (on the x-axis) for movies. Each dot represents a movie, where its position on the x-axis indicates its rating and its height on the y-axis indicates the number of votes it received.
 
 #### Key Insights: General Trend:
-
+>
 - Movies with higher ratings (closer to 10) tend to have more votes. There is a visible upward trend where movies with ratings above 7.0 generally attract more votes, suggesting that higher-rated movies are more popular and receive more viewer engagement. Cluster of Low Ratings with Few Votes:
 
 - Movies with ratings below 6.0 tend to have fewer votes. This could indicate that lower-rated movies attract less attention or may appeal to smaller, niche audiences. Highly Voted Movies with High Ratings:
@@ -197,4 +197,11 @@ This plot (light blue) represents the number of votes each movie received, while
 >
 This visualization shows the relationship between popularity and quality. Some movies are very popular and get a lot of votes, while others are highly rated but have fewer viewers. Knowing this can help in making better content recommendations, marketing decisions, and targeting the right audience for different types of movies.
 
-  
+
+### Longest Runtime Analysis
+This analysis was to identify movies with the longest runtimes and explore whether these movies tend to have higher or lower ratings.
+
+![](images/17.png)
+
+- Longest Runtime: "El tiempo entre costuras" has the longest runtime, exceeding 800 minutes. This might indicate it is a miniseries or a multi-episode format.
+- Other Notable Movies: "Soupçons", "The Innocence Files", and "The Haunting of Hill House" also have runtimes above 500 minutes, suggesting they may be lengthy documentaries or multi-episode series.
