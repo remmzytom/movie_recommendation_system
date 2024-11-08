@@ -35,17 +35,23 @@ The dataset includes information on:
 - One-Hot Encoding & Feature Engineering:
 - Text Processing:
 - Exploratory Data Analysis (EDA):
- - Descriptive Analysis:
 - Visual Libraries:
- - Utilized Matplotlib, Seaborn, and WordCloud to create clear and informative visualizations.
+- Utilized Visual Libraries like Matplotlib, Seaborn, and WordCloud to create clear and informative visualizations.
 - Machine Learning & Modeling:
- - Unsupervised Learning:
-  - Implemented K-Means Clustering for segmenting movies based on characteristics.
+- Unsupervised Learning:
 - Dimensionality Reduction(PCA):
 - Similarity Measures(cosine similarity):
 - Data Standardization(standarsScaler):
-- Developed functions for data manipulation, visualization, and analysis.
 - Pandas & Numpy:
 - Scikit-Learn:
-- Utilized for TF-IDF Vectorization, K-Means clustering, and data scaling.
+- Utilized for TF-IDF Vectorization, K-Means clustering.
 
+
+
+### Number of Movies Released Per Year
+An analysis was conducted to examine the number of movies released each year, highlighting the trends in movie production over time. A bar chart was created to display the top 20 years with the highest number of movie releases, providing a clear view of how the movie industry has evolved.
+
+
+
+### Number of Movies Released in Different Decades
+A bar chart was created to illustrate the number of movies released in each decade, from the 1930s to the 2020s. This analysis provides a long-term view of how the movie industry has evolved over the years, highlighting significant periods of growth and change.
