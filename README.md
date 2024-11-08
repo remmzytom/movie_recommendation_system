@@ -50,6 +50,7 @@ The dataset includes information on:
 
 ### Number of Movies Released Per Year
 An analysis was conducted to examine the number of movies released each year, highlighting the trends in movie production over time. A bar chart was created to display the top 20 years with the highest number of movie releases, providing a clear view of how the movie industry has evolved.
+## ![barchat](images/one.png)
 
 
 
