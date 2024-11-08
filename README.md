@@ -27,4 +27,25 @@ The dataset includes information on:
 - Movie runtime and description
 - Cast and directors
 
-  
+
+
+## Skills Applied in the Movie Recommendation Project
+- Data Processing & Preparation:
+- Data Cleaning & Transformation:
+- One-Hot Encoding & Feature Engineering:
+- Text Processing:
+- Exploratory Data Analysis (EDA):
+ - Descriptive Analysis:
+- Visual Libraries:
+ - Utilized Matplotlib, Seaborn, and WordCloud to create clear and informative visualizations.
+- Machine Learning & Modeling:
+ - Unsupervised Learning:
+  - Implemented K-Means Clustering for segmenting movies based on characteristics.
+- Dimensionality Reduction(PCA):
+- Similarity Measures(cosine similarity):
+- Data Standardization(standarsScaler):
+- Developed functions for data manipulation, visualization, and analysis.
+- Pandas & Numpy:
+- Scikit-Learn:
+- Utilized for TF-IDF Vectorization, K-Means clustering, and data scaling.
+
