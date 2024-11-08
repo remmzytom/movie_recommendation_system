@@ -125,9 +125,47 @@ This scatter plot visualizes the relationship between votes (on the y-axis) and 
 
 ### what are the common genres?
 
-![](images/ten.png)
+![](images/nine.png)
 
 The word cloud above shows the most common movie genres in the dataset. The bigger the word, the more common that genre is. For example, "Drama," "Comedy," "Action," and "Adventure" are the largest words, meaning these genres appear most often in the movies we have. This suggests that these types of movies are very popular or are produced more frequently.
 >
 Other genres, like "Documentary," "Crime," and "Animation," are also shown but are a bit smaller, which means they are less common than the top genres but still significant. You can also see a wide range of genres, like "Horror," "Romance," and "Reality-TV," showing that there is a good mix of movie types available.
 
+
+### Analyzing the average number of votes per genre. Are certain genres more popular or attract more voters than others?
+The goal is to determine which genres are more popular or attract more audience engagement as reflected by the number of votes.
+![](images/9.png)
+
+### Observations:
+
+- Sci-Fi, Thriller, and Crime genres dominate with the highest average number of votes, with Sci-Fi topping the chart at nearly 40,000 average votes. These genres typically feature blockbuster films that attract broad audiences and garner significant attention.
+
+- The Thriller and Crime genres are also highly popular, which might be due to the suspense and intense storylines that appeal to wide audiences across different demographics. Mid-Range Genres:
+
+- Adventure, Action, Fantasy, and Biography genres fall in the middle tier, with an average of 15,000-20,000 votes. These genres likely include a mix of mainstream and niche films that generate steady but not overwhelmingly large engagement.
+
+- Musical, Horror, and Drama genres also fall in this mid-range category, with decent engagement. These genres often include cult classics or emotionally driven films that resonate with specific audience groups. Genres with Lower Engagement:
+
+- Reality-TV, Talk-Show, Game-Show, and News genres receive significantly fewer votes, with Game-Show and Talk-Show barely crossing the 2,000-vote threshold. This reflects their niche appeal and limited engagement compared to more widely popular movie genres.
+
+- Documentary and Short Films also have lower average votes, likely because these genres cater to more specialized or educational audiences. Niche Genres:
+
+- Film-Noir, Western, and Family genres, while not among the top in terms of votes, still have a steady fanbase, garnering between 8,000-12,000 votes on average. These genres have dedicated but smaller audience groups, and while they may not generate the highest vote counts, they have consistent appeal to specific viewers.
+
+
+### Runtime by Genre:
+comparing movie runtimes across different genres. This could reveal if certain genres (e.g., drama or action) tend to have longer or shorter runtimes.
+![](images/eleven.png)
+
+- Top Runtimes: The chart shows that genres such as war, western, and biography have the highest average runtimes, around 100 minutes. This could suggest that these genres often include detailed storytelling that requires longer screen time.
+- Moderate Runtimes: Genres like thriller, horror, music, and musical have average runtimes between 80 to 90 minutes.
+- Shorter Runtimes: Genres like animation, short, and game-show have the shortest average runtimes, with averages below 60 minutes. This is likely due to the nature of these genres; for example, short films are designed to be concise.
+
+
+
+
+
+
+
+
+  
