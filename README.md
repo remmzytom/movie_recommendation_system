@@ -20,6 +20,8 @@ This project aims to explore movie data and develop a content-based recommendati
 
 In this project, we use a dataset containing movies, genres, ratings, and more, to uncover trends in movie success and develop a recommendation system. The content-based recommendation system will utilize features such as genre and textual movie descriptions to suggest similar movies to users based on the attributes of movies they have enjoyed in the past.
 
+#### Data source:
+
 The dataset includes information on:
 
 - Movie titles, genres, and release year
@@ -46,6 +48,38 @@ The dataset includes information on:
 - Scikit-Learn:
 - Utilized for TF-IDF Vectorization, K-Means clustering.
 
+#### Data cleaning/preparation
+- Data loading and inspection
+- Handling missing Values
+- Data cleaning and formatting
+
+#### Data exploratory
+EDA involved exploring the movie data to answer key questions such as
+
+- Number of Movies Released Per Year
+- Number of Movies Released in Different Decades
+- Analysing the trend of average rating, votes and runtime
+- Average Votes per Year (Middle Plot):
+- checking if movies with more votes tend to have higher ratings.
+- what are the most common genres?
+- Analyzing the average number of votes per genre. Are certain genres more popular or attract more voters than others?
+ - Runtime by Genre
+ - Top rated movies
+- Most Voted Movies:¶
+ -comparing Top 10 Most Voted and Top-Rated Movies:
+ - Longest Runtime Analysis
+ - comparing the runtime and rating of movies
+
+#### Feature Engineering
+- Feature selection
+- One-Hot Encoding
+- Text Processing:
+
+
+#### Machine learning & Modelling
+- Machine Learning & Modeling:
+- Unsupervised Learning:
+- Dimensionality Reduction(PCA):
 
 
 ### Number of Movies Released Per Year
@@ -123,7 +157,7 @@ This scatter plot visualizes the relationship between votes (on the y-axis) and 
 
 
 
-### what are the common genres?
+### what are the most common genres?
 
 ![](images/nine.png)
 
