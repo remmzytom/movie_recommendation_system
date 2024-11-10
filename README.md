@@ -273,43 +273,44 @@ The system identifies similarities between movies based on shared attributes, su
 Users can refine their recommendations based on specific criteria like the release year, ratings, and runtime to tailor their viewing experience.
 
 
-#### Conclusion
+### Conclusion
 This use case has been a comprehensive project showcasing a blend of data analysis, visualization, machine learning, and business insights. Below is a summary of the key achievements, insights, and learning outcomes.
 
 
 ### Achievements¶
-1. Extensive Data Analysis and insights
+#### 1. Extensive Data Analysis and insights
 Analyzed various aspects of movie data such as genre distribution, average ratings, number of votes, and runtimes.
 Gained insights into how movie releases have trended over the years and identified major shifts in production related to technological advancements and the rise of streaming services.
-2. Advanced Visualization Techniques:
+#### 2. Advanced Visualization Techniques:
 Created intuitive and diverse visualizations, including bar charts, scatter plots, word clouds, and cluster plots. These visualizations effectively communicated findings and made it easy for - - stakeholders to grasp trends and patterns.
-3. Successful Implementation of a Recommendation System:
+#### 3. Successful Implementation of a Recommendation System:
 Developed a content-based recommendation system that leverages key features such as genres, plot descriptions, directors, and actors. Enhanced the system with filters based on user preferences like ratings, year of release, and runtime.
 The system provided personalized, high-quality movie recommendations that align with user interests.
-4. Clustering and Machine Learning Techniques:
+#### 4. Clustering and Machine Learning Techniques:
 Used K-means clustering to group movies based on their characteristics and visualized the clusters with PCA to identify distinct groupings.
 Provided cluster profiles that help understand audience preferences and assist in targeted content recommendations and marketing strategies.
 
 
 
 ### Key Insights and Learning Outcomes
-1. Trends in Movie Releases:
+>
+#### 1. Trends in Movie Releases:
 Significant growth in movie production in the 2010s and 2020s, driven by technological advancements and the rise of streaming platforms.
 Movie releases saw a sharp increase after 2014, aligning with the growth of independent filmmaking and the expansion of streaming services.
-2. Genre Analysis:
+#### 2. Genre Analysis:
 The most common genres were identified using a word cloud, highlighting Drama, Comedy, Action, and Adventure as dominant genres.
 Average ratings varied significantly across genres. Animation, Adventure, and History genres received the highest average ratings, while Horror and Reality-TV had lower average ratings.
-3. Votes and Ratings Relationship:
+#### 3. Votes and Ratings Relationship:
 Movies with higher ratings often received more votes, indicating their popularity. However, some highly-rated movies had fewer votes, suggesting a niche but highly engaged audience.
 Sci-Fi, Thriller, and Crime genres attracted the highest average number of votes, showing their widespread appeal and strong viewer engagement.
-4. Runtime Analysis:
+#### 4. Runtime Analysis:
 Genres like War, Western, and Biography had the highest average runtimes, suggesting detailed storytelling.
 Shorter runtimes were common in genres such as Animation, Short, and Game-Show, aligning with the nature of these genres.
 Analysis of movies with the longest runtimes revealed no clear correlation between runtime and rating. While some long movies or series were highly rated (e.g., Soupçons), others with similar runtimes received moderate ratings.
-5.Top-Rated and Most Voted Movies:
+#### 5.Top-Rated and Most Voted Movies:
 The highest-rated movies included Avatar: The Last Airbender, BoJack Horseman, and She-Ra and the Princesses of Power, all with ratings above 9.0.
 The most voted movies featured blockbuster hits like The Lord of the Rings series and Breaking Bad, demonstrating that popularity (votes) and quality (ratings) do not always align perfectly.
-6. Clustering Insights:
+#### 6. Clustering Insights:
 Clustering analysis revealed patterns in movie characteristics, with distinct groups showing different genre distributions. This can aid in audience segmentation and targeted recommendations.
 The clustering visualization highlighted that while some clusters had mixed genres, others had a strong focus on specific genres like Drama, Adventure, and Documentary.
 Overall Learning Outcomes:
