@@ -205,3 +205,115 @@ This analysis was to identify movies with the longest runtimes and explore wheth
 
 - Longest Runtime: "El tiempo entre costuras" has the longest runtime, exceeding 800 minutes. This might indicate it is a miniseries or a multi-episode format.
 - Other Notable Movies: "Soupçons", "The Innocence Files", and "The Haunting of Hill House" also have runtimes above 500 minutes, suggesting they may be lengthy documentaries or multi-episode series.
+
+
+### comparing the runtime and rating of movies
+This comparison helps determine if longer or shorter movies tend to have higher or lower ratings. This informed decisions about content development and audience engagement strategies
+![](images/18.png)
+
+General Observations:
+
+- The movies or series shown in the plot have runtimes ranging from approximately 450 to 850 minutes and ratings between 6.5 and 9.5.
+>
+- Longest Runtime: The movie "El tiempo entre costuras" has the longest runtime, close to 850 minutes, and a rating around 8.5. Highest Ratings:
+>
+- "Soupçons" is among the highest-rated, with a rating close to 9.0 and a runtime of around 550 minutes.
+>
+- "The Innocence Files" and "The Haunting of Hill House" also feature high ratings (approximately 8.5 to 9.0) and runtimes between 600 to 650 minutes. Moderate to Lower Ratings:
+>
+- "Dogs of Berlin" and "The Last Dance" have ratings between 7.0 and 8.0, with runtimes of 500 to 550 minutes.
+>
+- "El inocente" has the lowest rating in the plot, approximately 6.5, with a runtime of around 500 minutes. Insights:
+>
+No Clear Correlation: The plot shows that while some long movies or series are highly rated, others with similar runtimes receive moderate or lower ratings. This suggests that there is no straightforward correlation between runtime and rating.
+
+
+### Clustering Movies
+#### This could reveal patterns or clusters of movies that tend to be similar
+The goal was to identify patterns and create clusters that reveal similar types of movies, such as action-packed, highly-rated thrillers or family-friendly animations. This analysis provides insights into movie segmentation and can guide content recommendations and marketing strategies.
+
+![](images/20.png)
+
+
+This chart, titled "Genre Distribution by Cluster," illustrates how different movie genres are distributed within each cluster. Each bar represents a cluster of movies, and the colors within the bar signify different genres. The height of each color segment shows the percentage of that genre in the cluster, giving us insights into the dominant genres and overall genre composition of each cluster.
+
+Breakdown of Each Cluster Cluster 0:
+
+- Dominant Genres: Primarily composed of Action and Adventure movies, with some Comedy and Animation. This cluster represents high-energy, family-friendly movies, appealing to audiences looking for entertaining, light-hearted content.
+
+- Potential Audience: Likely to attract family-friendly viewers and casual audiences who enjoy adventurous and animated films. Cluster 1:
+
+- Dominant Genres: This cluster has a diverse mix, with substantial representation from Drama, Comedy, and Documentary genres. Movies in this cluster are story-driven and well-rounded, making them suitable for a general audience with varied tastes.
+
+- Potential Audience: Appeals to a broad audience looking for well-rounded, engaging narratives, including both casual viewers and those interested in documentaries. Cluster 2:
+
+- Dominant Genres: Contains a significant proportion of Family and Animation movies, along with Adventure films. This cluster is family-oriented, featuring movies that are suitable for all ages, with a mix of fun, animated, and light-hearted genres.
+
+- Potential Audience: Ideal for family audiences or younger viewers looking for safe, entertaining options. Cluster 3:
+
+- Dominant Genres: Composed mainly of Drama, Crime, Thriller, and Mystery genres. This cluster leans towards suspenseful, intense movies with complex plots. The combination of crime and thriller elements suggests it is suited for audiences looking for excitement and intrigue.
+
+- Potential Audience: Likely to attract adult viewers who enjoy thrillers, mysteries, and story-driven content with a darker tone. Cluster 4:
+
+- Dominant Genres:Features a unique combination, with a strong presence of Documentary and History genres, as well as some Drama and Crime. This cluster represents more educational or factual content, appealing to audiences interested in documentaries or historical themes. Potential Audience: Attracts viewers who enjoy learning and factual narratives, such as documentaries and historical dramas.
+>
+By identifying the genre focus of each cluster, we can tailor recommendations and marketing strategies more effectively. For instance, users frequently watching movies in Cluster 2 (family-friendly) are likely to appreciate more animated or family-focused content. On the other hand, users interested in Cluster 3 may prefer thrillers or suspenseful genres, and we can recommend similar titles. This clustering also enables targeted marketing campaigns by aligning content with viewer preferences, enhancing engagement and viewer satisfaction.
+
+
+### Recommendation system
+
+A content-based recommendation system was developed to suggest movies that are similar to a user’s preferred movie. For my system, I used key features such as **genres**, **one-line**, **directors**, and **star_names** to find and recommend movies that align closely with user preferences. The recommendation system is further enhanced with filters for **year** of release, **ratings**, and **runtime**, allowing users to customize their viewing options.
+
+Approach:
+>
+#### Content-Based Filtering:
+The system identifies similarities between movies based on shared attributes, such as genre, plot, and cast. By leveraging TF-IDF (Term Frequency-Inverse Document Frequency) and cosine similarity, the system measures how closely related different movies are.
+>
+#### Customization and Filters:
+Users can refine their recommendations based on specific criteria like the release year, ratings, and runtime to tailor their viewing experience.
+
+
+#### Conclusion
+This use case has been a comprehensive project showcasing a blend of data analysis, visualization, machine learning, and business insights. Below is a summary of the key achievements, insights, and learning outcomes.
+
+
+### Achievements¶
+1. Extensive Data Analysis and insights
+Analyzed various aspects of movie data such as genre distribution, average ratings, number of votes, and runtimes.
+Gained insights into how movie releases have trended over the years and identified major shifts in production related to technological advancements and the rise of streaming services.
+2. Advanced Visualization Techniques:
+Created intuitive and diverse visualizations, including bar charts, scatter plots, word clouds, and cluster plots. These visualizations effectively communicated findings and made it easy for - - stakeholders to grasp trends and patterns.
+3. Successful Implementation of a Recommendation System:
+Developed a content-based recommendation system that leverages key features such as genres, plot descriptions, directors, and actors. Enhanced the system with filters based on user preferences like ratings, year of release, and runtime.
+The system provided personalized, high-quality movie recommendations that align with user interests.
+4. Clustering and Machine Learning Techniques:
+Used K-means clustering to group movies based on their characteristics and visualized the clusters with PCA to identify distinct groupings.
+Provided cluster profiles that help understand audience preferences and assist in targeted content recommendations and marketing strategies.
+
+
+
+### Key Insights and Learning Outcomes
+1. Trends in Movie Releases:
+Significant growth in movie production in the 2010s and 2020s, driven by technological advancements and the rise of streaming platforms.
+Movie releases saw a sharp increase after 2014, aligning with the growth of independent filmmaking and the expansion of streaming services.
+2. Genre Analysis:
+The most common genres were identified using a word cloud, highlighting Drama, Comedy, Action, and Adventure as dominant genres.
+Average ratings varied significantly across genres. Animation, Adventure, and History genres received the highest average ratings, while Horror and Reality-TV had lower average ratings.
+3. Votes and Ratings Relationship:
+Movies with higher ratings often received more votes, indicating their popularity. However, some highly-rated movies had fewer votes, suggesting a niche but highly engaged audience.
+Sci-Fi, Thriller, and Crime genres attracted the highest average number of votes, showing their widespread appeal and strong viewer engagement.
+4. Runtime Analysis:
+Genres like War, Western, and Biography had the highest average runtimes, suggesting detailed storytelling.
+Shorter runtimes were common in genres such as Animation, Short, and Game-Show, aligning with the nature of these genres.
+Analysis of movies with the longest runtimes revealed no clear correlation between runtime and rating. While some long movies or series were highly rated (e.g., Soupçons), others with similar runtimes received moderate ratings.
+5.Top-Rated and Most Voted Movies:
+The highest-rated movies included Avatar: The Last Airbender, BoJack Horseman, and She-Ra and the Princesses of Power, all with ratings above 9.0.
+The most voted movies featured blockbuster hits like The Lord of the Rings series and Breaking Bad, demonstrating that popularity (votes) and quality (ratings) do not always align perfectly.
+6. Clustering Insights:
+Clustering analysis revealed patterns in movie characteristics, with distinct groups showing different genre distributions. This can aid in audience segmentation and targeted recommendations.
+The clustering visualization highlighted that while some clusters had mixed genres, others had a strong focus on specific genres like Drama, Adventure, and Documentary.
+Overall Learning Outcomes:
+Enhanced skills in data analysis, feature engineering, and building practical machine learning applications.
+Improved understanding of unsupervised learning and its real-world applications in content clustering.
+Gained experience in creating stakeholder-friendly visualizations and summaries that bridge technical insights and business applications.
+Developed a recommendation system that can be utilized to personalize user experiences, driving engagement and user satisfaction.
