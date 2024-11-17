@@ -82,7 +82,7 @@ EDA involved exploring the movie data to answer key questions such as
 - Dimensionality Reduction(PCA):
 
 
-### Number of Movies Released Per Year
+## Number of Movies Released Per Year
 This analysis was conducted to examine the number of movies released each year, highlighting the trends in movie production over time. A bar chart was created to display the top 20 years with the highest number of movie releases, providing a clear view of how the movie industry has evolved.
 ## ![barchat](images/one.png)
 
@@ -115,7 +115,7 @@ Earlier Decades: From the 1930s to the 1990s, movie production was much lower, w
 - Streaming Services: Platforms like Netflix and Amazon Prime have played a big role in the huge increase in movie releases, especially in the 2010s and 2020s. These platforms have increased the demand for more content, leading to more movies being made.
 
 
-### Analysing the trend of average rating, votes and runtime
+## Analysing the trend of average rating, votes and runtime
 ![](images/three.png)
 
 ### Average Rating per Year (Top Plot):
@@ -133,7 +133,7 @@ Earlier Decades: From the 1930s to the 1990s, movie production was much lower, w
 
 ![](images/five.png)
 
-## Average Runtime per Year (Bottom Plot):
+### Average Runtime per Year (Bottom Plot):
 
 - Movie runtimes have varied widely over the years. The data shows a notable increase in average runtime in the 1960s, with movies during that period running longer, peaking at around 175 minutes.
 - Over time, average runtimes have gradually decreased, especially in more recent years, stabilizing around 100 minutes, possibly due to modern audiences preferring shorter films or the rise of content like TV shows and web series that are designed for quicker consumption.
@@ -141,7 +141,7 @@ Earlier Decades: From the 1930s to the 1990s, movie production was much lower, w
 
 
 
-### checking if movies with more votes tend to have higher ratings.
+## checking if movies with more votes tend to have higher ratings.
 This analysis helps to understand if more popular movies (with higher votes) tend to have higher ratings, and vice versa.
 ![](images/seven.png)
 
@@ -166,7 +166,7 @@ The word cloud above shows the most common movie genres in the dataset. The bigg
 Other genres, like "Documentary," "Crime," and "Animation," are also shown but are a bit smaller, which means they are less common than the top genres but still significant. You can also see a wide range of genres, like "Horror," "Romance," and "Reality-TV," showing that there is a good mix of movie types available.
 
 
-### Analyzing the average number of votes per genre. Are certain genres more popular or attract more voters than others?
+## Analyzing the average number of votes per genre. Are certain genres more popular or attract more voters than others?
 The goal is to determine which genres are more popular or attract more audience engagement as reflected by the number of votes.
 ![](images/9.png)
 
