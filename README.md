@@ -81,6 +81,7 @@ EDA involved exploring the movie data to answer key questions such as
 - Unsupervised Learning:
 - Dimensionality Reduction(PCA):
 
+<br><br>
 
 ## Number of Movies Released Per Year
 This analysis was conducted to examine the number of movies released each year, highlighting the trends in movie production over time. A bar chart was created to display the top 20 years with the highest number of movie releases, providing a clear view of how the movie industry has evolved.
@@ -96,6 +97,7 @@ Prior to 2010, movie production was relatively low compared to recent years. Bet
 The sharp rise after 2014 aligns with the growth of independent film-making, streaming services, and lower production costs, which have democratized the movie industry.
 - Explanation for the Trend: This trend reflects the transformation of the movie industry, driven by technological advancements and the shift toward online streaming platforms. It also points to the increasing demand for content, as well as changes in the way movies are produced and distributed. Understanding these trends is essential for building predictive models or recommendation systems that cater to current production and consumption patterns.
 
+<br><br>
 
 ## Number of Movies Released in Different Decades
 This analysis provides a long-term view of how the movie industry has evolved over the years, highlighting significant periods of growth and change.
@@ -114,6 +116,7 @@ Earlier Decades: From the 1930s to the 1990s, movie production was much lower, w
 - Technology: Starting in the 2000s, new technology made it cheaper and easier to make movies. The rise of digital cameras and editing software lowered the cost, allowing more filmmakers to enter the industry.
 - Streaming Services: Platforms like Netflix and Amazon Prime have played a big role in the huge increase in movie releases, especially in the 2010s and 2020s. These platforms have increased the demand for more content, leading to more movies being made.
 
+<br><br>
 
 ## Analysing the trend of average rating, votes and runtime
 ![](images/three.png)
@@ -139,7 +142,7 @@ Earlier Decades: From the 1930s to the 1990s, movie production was much lower, w
 - Over time, average runtimes have gradually decreased, especially in more recent years, stabilizing around 100 minutes, possibly due to modern audiences preferring shorter films or the rise of content like TV shows and web series that are designed for quicker consumption.
 - This may reflect changing audience preferences or trends toward shorter, more concise movies in the digital age.
 
-
+<br><br>
 
 ## checking if movies with more votes tend to have higher ratings.
 This analysis helps to understand if more popular movies (with higher votes) tend to have higher ratings, and vice versa.
@@ -156,6 +159,7 @@ This scatter plot visualizes the relationship between votes (on the y-axis) and 
 - A group of movies with ratings between 8.0 and 9.5 has received the highest number of votes (over 1 million). These are likely popular and highly rated movies that resonate with large audiences.
 
 
+<br><br>
 
 ## what are the most common genres?
 
@@ -165,6 +169,7 @@ The word cloud above shows the most common movie genres in the dataset. The bigg
 >
 Other genres, like "Documentary," "Crime," and "Animation," are also shown but are a bit smaller, which means they are less common than the top genres but still significant. You can also see a wide range of genres, like "Horror," "Romance," and "Reality-TV," showing that there is a good mix of movie types available.
 
+<br><br>
 
 ## Analyzing the average number of votes per genre. Are certain genres more popular or attract more voters than others?
 The goal is to determine which genres are more popular or attract more audience engagement as reflected by the number of votes.
@@ -186,6 +191,7 @@ The goal is to determine which genres are more popular or attract more audience 
 
 - Film-Noir, Western, and Family genres, while not among the top in terms of votes, still have a steady fanbase, garnering between 8,000-12,000 votes on average. These genres have dedicated but smaller audience groups, and while they may not generate the highest vote counts, they have consistent appeal to specific viewers.
 
+<br><br>
 
 ## Runtime by Genre:
 comparing movie runtimes across different genres. This could reveal if certain genres (e.g., drama or action) tend to have longer or shorter runtimes.
@@ -195,6 +201,7 @@ comparing movie runtimes across different genres. This could reveal if certain g
 - Moderate Runtimes: Genres like thriller, horror, music, and musical have average runtimes between 80 to 90 minutes.
 - Shorter Runtimes: Genres like animation, short, and game-show have the shortest average runtimes, with averages below 60 minutes. This is likely due to the nature of these genres; for example, short films are designed to be concise.
 
+<br><br>
 
 ## Top rated movies
 This provides insight into which movies have achieved exceptional ratings and how diverse or varied these top-rated films are in terms of genres and content.
@@ -205,8 +212,9 @@ This provides insight into which movies have achieved exceptional ratings and ho
 -Diversity: The list includes a mix of animated series (e.g., "BoJack Horseman", "She-Ra and the Princesses of Power") and dramas (e.g., "Dexter", "Dark").
 -Consistent Ratings: All movies on the list have very high ratings, ranging from 9.6 to 9.9, showing they are well-loved by audiences.
 
+<br><br>
 
-## Most Voted Movies:¶
+## Most Voted Movies
 The top 10 movies with the most votes.
 
 ![](images/15.png)
@@ -216,6 +224,7 @@ The top 10 movies with the most votes.
 - Variety: While the top three movies are part of well-known series (including "Breaking Bad"), the list also includes standalone hits like "The Departed", "Gone Girl", and "Kill Bill: Vol. 1".
 - TV Shows Included: The presence of TV series like "Stranger Things" and "The Walking Dead" shows that the most-voted content isn’t limited to movies but includes popular series as well.
 
+<br><br>
 
 ## comparing Top 10 Most Voted and Top-Rated Movies: 
 This comparison was done to determine if there is an alignment between popularity (measured by the number of votes) and quality (measured by ratings)
@@ -231,6 +240,7 @@ This plot (light blue) represents the number of votes each movie received, while
 >
 This visualization shows the relationship between popularity and quality. Some movies are very popular and get a lot of votes, while others are highly rated but have fewer viewers. Knowing this can help in making better content recommendations, marketing decisions, and targeting the right audience for different types of movies.
 
+<br><br>
 
 ## Longest Runtime Analysis
 This analysis was to identify movies with the longest runtimes and explore whether these movies tend to have higher or lower ratings.
@@ -240,6 +250,7 @@ This analysis was to identify movies with the longest runtimes and explore wheth
 - Longest Runtime: "El tiempo entre costuras" has the longest runtime, exceeding 800 minutes. This might indicate it is a miniseries or a multi-episode format.
 - Other Notable Movies: "Soupçons", "The Innocence Files", and "The Haunting of Hill House" also have runtimes above 500 minutes, suggesting they may be lengthy documentaries or multi-episode series.
 
+<br><br>
 
 ## comparing the runtime and rating of movies
 This comparison helps determine if longer or shorter movies tend to have higher or lower ratings. This informed decisions about content development and audience engagement strategies
@@ -261,6 +272,7 @@ General Observations:
 >
 No Clear Correlation: The plot shows that while some long movies or series are highly rated, others with similar runtimes receive moderate or lower ratings. This suggests that there is no straightforward correlation between runtime and rating.
 
+<br><br>
 
 ## Clustering Movies
 #### This could reveal patterns or clusters of movies that tend to be similar
@@ -293,6 +305,7 @@ Breakdown of Each Cluster Cluster 0:
 >
 By identifying the genre focus of each cluster, we can tailor recommendations and marketing strategies more effectively. For instance, users frequently watching movies in Cluster 2 (family-friendly) are likely to appreciate more animated or family-focused content. On the other hand, users interested in Cluster 3 may prefer thrillers or suspenseful genres, and we can recommend similar titles. This clustering also enables targeted marketing campaigns by aligning content with viewer preferences, enhancing engagement and viewer satisfaction.
 
+<br><br>
 
 ## Recommendation system
 
@@ -310,6 +323,7 @@ Users can refine their recommendations based on specific criteria like the relea
 ### Conclusion
 This use case has been a comprehensive project showcasing a blend of data analysis, visualization, machine learning, and business insights. Below is a summary of the key achievements, insights, and learning outcomes.
 
+<br><br>
 
 ## Achievements¶
 #### 1. Extensive Data Analysis and insights
@@ -324,6 +338,8 @@ The system provided personalized, high-quality movie recommendations that align 
 Used K-means clustering to group movies based on their characteristics and visualized the clusters with PCA to identify distinct groupings.
 Provided cluster profiles that help understand audience preferences and assist in targeted content recommendations and marketing strategies.
 
+
+<br><br>
 
 
 ### Key Insights and Learning Outcomes
