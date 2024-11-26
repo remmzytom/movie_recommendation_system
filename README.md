@@ -62,7 +62,7 @@ EDA involved exploring the movie data to answer key questions such as
 - [Average Votes Per Year (Middle Plot)](#average-votes-per-year-middle-plot)
 - [Checking if Movies With More Votes Tend to Have Higher Ratings](#checking-if-movies-with-more-votes-tend-to-have-higher-ratings)
 - [What Are the Most Common Genres?](#what-are-the-most-common-genres)
-- [Analyzing the Average Number of Votes Per Genre](#analyzing-the-average-number-of-votes-per-genre-Are-certain-genres-more-popular-or-attract-more-voters-than-others?)
+- [Analyzing the Average Number of Votes Per Genre. Are certain genres more popular or attract more voters than others?](#analyzing-the-average-number-of-votes-per-genre.-Are-certain-genres-more-popular-or-attract-more-voters-than-others?)
  - [Runtime by Genre](#runtime-by-genre)
 - [Top Rated Movies](#top-rated-movies)
 - [Most Voted Movies](#most-voted-movies)
