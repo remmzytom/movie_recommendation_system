@@ -29,7 +29,7 @@ The dataset includes information on:
 - Movie runtime and description
 - Cast and directors
 
-
+<br><br>
 
 ## Skills Applied in the Movie Recommendation Project
 - Data Processing & Preparation:
@@ -48,27 +48,27 @@ The dataset includes information on:
 - Scikit-Learn:
 - Utilized for TF-IDF Vectorization, K-Means clustering.
 
-#### Data cleaning/preparation
+### Data cleaning/preparation
 - Data loading and inspection
 - Handling missing Values
 - Data cleaning and formatting
 
-#### Data exploratory
+### Data exploratory
 EDA involved exploring the movie data to answer key questions such as
 
-- Number of Movies Released Per Year
-- Number of Movies Released in Different Decades
-- Analysing the trend of average rating, votes and runtime
-- Average Votes per Year (Middle Plot):
-- checking if movies with more votes tend to have higher ratings.
-- what are the most common genres?
-- Analyzing the average number of votes per genre. Are certain genres more popular or attract more voters than others?
- - Runtime by Genre
- - Top rated movies
-- Most Voted Movies:¶
- -comparing Top 10 Most Voted and Top-Rated Movies:
- - Longest Runtime Analysis
- - comparing the runtime and rating of movies
+- [Number of Movies Released Per Year](#number-of-movies-released-per-year)
+- [Number of Movies Released in Different Decades](#number-of-movies-released-in-different-decades)
+- [Analyzing the Trend of Average Rating, Votes, and Runtime](#analyzing-the-trend-of-average-rating-votes-and-runtime)
+- [Average Votes Per Year (Middle Plot)](#average-votes-per-year-middle-plot)
+- [Checking if Movies With More Votes Tend to Have Higher Ratings](#checking-if-movies-with-more-votes-tend-to-have-higher-ratings)
+- [What Are the Most Common Genres?](#what-are-the-most-common-genres)
+- [Analyzing the Average Number of Votes Per Genre](#analyzing-the-average-number-of-votes-per-genre)
+ - [Runtime by Genre](#runtime-by-genre)
+- [Top Rated Movies](#top-rated-movies)
+- [Most Voted Movies](#most-voted-movies)
+- [Comparing Top 10 Most Voted and Top-Rated Movies](#comparing-top-10-most-voted-and-top-rated-movies)
+- [Longest Runtime Analysis](#longest-runtime-analysis)
+- [Comparing the Runtime and Rating of Movies](#comparing-the-runtime-and-rating-of-movies)
 
 #### Feature Engineering
 - Feature selection
