@@ -48,12 +48,14 @@ The dataset includes information on:
 - Scikit-Learn:
 - Utilized for TF-IDF Vectorization, K-Means clustering.
 
-### Data cleaning/preparation
+<br><br>
+### Steps taken
+#### Data cleaning/preparation
 - Data loading and inspection
 - Handling missing Values
 - Data cleaning and formatting
 
-### Data exploratory
+#### Data exploratory
 EDA involved exploring the movie data to answer key questions such as
 
 - [Number of Movies Released Per Year](#number-of-movies-released-per-year)
@@ -85,7 +87,7 @@ EDA involved exploring the movie data to answer key questions such as
 
 ## Number of Movies Released Per Year
 This analysis was conducted to examine the number of movies released each year, highlighting the trends in movie production over time. A bar chart was created to display the top 20 years with the highest number of movie releases, providing a clear view of how the movie industry has evolved.
-## ![barchat](images/one.png)
+ ![barchat](images/one.png)
 
 This bar chart presents the trend of movie releases from 2001 to 2020, showing a significant rise in production over time, with the peak occurring in 2020 at 2,442 movies. The visual highlights a gradual increase in movie releases from 2001, where fewer than 50 movies were released annually, to a marked acceleration in recent years
 
@@ -319,13 +321,12 @@ The system identifies similarities between movies based on shared attributes, su
 #### Customization and Filters:
 Users can refine their recommendations based on specific criteria like the release year, ratings, and runtime to tailor their viewing experience.
 
-
-### Conclusion
-This use case has been a comprehensive project showcasing a blend of data analysis, visualization, machine learning, and business insights. Below is a summary of the key achievements, insights, and learning outcomes.
-
 <br><br>
 
-## Achievements¶
+## Conclusion
+This use case has been a comprehensive project showcasing a blend of data analysis, visualization, machine learning, and business insights. Below is a summary of the key achievements, insights, and learning outcomes.
+
+### Achievements
 #### 1. Extensive Data Analysis and insights
 Analyzed various aspects of movie data such as genre distribution, average ratings, number of votes, and runtimes.
 Gained insights into how movie releases have trended over the years and identified major shifts in production related to technological advancements and the rise of streaming services.
@@ -368,3 +369,21 @@ Enhanced skills in data analysis, feature engineering, and building practical ma
 Improved understanding of unsupervised learning and its real-world applications in content clustering.
 Gained experience in creating stakeholder-friendly visualizations and summaries that bridge technical insights and business applications.
 Developed a recommendation system that can be utilized to personalize user experiences, driving engagement and user satisfaction.
+
+<br><br>
+
+### References
+
+[1] [youtube video on ecommendation system](https://www.youtube.com/watch?v=_hf_y-_sj5Y&list=PLZoTAELRMXVN7QGpcuN-Vg35Hgjp3htvi)
+
+[2][About recommendation system on wikipedia](https://en.wikipedia.org/wiki/Recommender_system)
+
+[3] [Victorian 'Crash-Stat's dataset](https://discover.data.vic.gov.au/dataset/crash-stats-data-extract/resource/392b88c0-f010-491f-ac92-531c293de2e9)
+
+[4] [Creating point plot group layers with folium](https://towardsdatascience.com/creating-an-interactive-map-of-wildfire-data-using-folium-in-pythoiveTimeSeries.html)
+
+[5] [Machine learning tutorial](https://www.youtube.com/watch?v=7eh4d6sabA0&t=6s)
+
+[6] [Machine learning reading](https://www.coursera.org/articles/what-is-machine-learning?msockid=345dd51d5bb367590de6c1655a6666f1)
+
+[7] [Intelligence Analysis skill:](https://www.youtube.com/watch?v=iuU_GI5WMpY)
