@@ -1,5 +1,5 @@
-# movie recommendation system
-#### Movie recommendation system
+# Movie recommendation system[project Link]()
+
 
 
 ## Scenario
@@ -374,7 +374,7 @@ Developed a recommendation system that can be utilized to personalize user exper
 
 ### References
 
-[1] [youtube video on ecommendation system](https://www.youtube.com/watch?v=_hf_y-_sj5Y&list=PLZoTAELRMXVN7QGpcuN-Vg35Hgjp3htvi)
+[1] [youtube video on recommendation system](https://www.youtube.com/watch?v=_hf_y-_sj5Y&list=PLZoTAELRMXVN7QGpcuN-Vg35Hgjp3htvi)
 
 [2][About recommendation system on wikipedia](https://en.wikipedia.org/wiki/Recommender_system)
 
