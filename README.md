@@ -1,4 +1,4 @@
-# Movie recommendation system[project Link]()
+# Movie recommendation system [project Link](https://github.com/remmzytom/movie_recommendation_system/blob/main/Movie_recommendation.ipynb)
 
 
 
@@ -6,8 +6,7 @@
 As a movie streaming platform, I want to understand movie trends and user preferences based on movie features, so that I can provide personalized recommendations to my users. The goal is to analyze movie data, uncover patterns in movie ratings, genres, and other key factors, and then implement a content-based recommendation system to suggest similar movies to users.
 
 
-## What this usecase will teach me
-At the end of this use case I will:
+## working on this project I aim to:
 
 Clean and preprocess a movie dataset, including handling missing values.
 Perform exploratory data analysis (EDA) to uncover insights into movie trends, ratings, and genres
