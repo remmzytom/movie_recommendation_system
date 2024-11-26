@@ -126,6 +126,7 @@ Earlier Decades: From the 1930s to the 1990s, movie production was much lower, w
 - The average movie ratings have remained relatively high and stable, mostly between 6.0 and 8.0, from the 1930s up to 2020.
 - There is some fluctuation in ratings during the 1960s to 1990s, with peaks reaching as high as 8.0 in certain years.
 - In recent years, the average ratings have been more consistent, showing a slight upward trend.
+
   
 ![](images/four.png)
 ### Average Votes per Year (Middle Plot):
@@ -133,6 +134,7 @@ Earlier Decades: From the 1930s to the 1990s, movie production was much lower, w
 - The number of votes has significantly increased starting from the 1960s, with a major spike around the 1980s and 1990s.
 - This increase reflects the growing popularity of movies and wider audience engagement, likely due to better access to films and the rise of internet platforms where users can vote.
 - After the peak in the 1980s and 1990s, the average votes per year have gradually decreased, which might suggest changes in how movies are distributed or voted on.
+
 
 ![](images/five.png)
 
